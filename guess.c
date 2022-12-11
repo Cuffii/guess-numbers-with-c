@@ -47,38 +47,3 @@ int main(void)
         }
     }
 }
-
-// #include <stdio.h>
-// #include <stdlib.h>
-// #include <time.h>
-
-// int main(void)
-// {
-//     int sayi, tahmin, deneme_sayisi = 0;
-
-//     // Rastgele bir sayı üret
-//     srand(time(NULL));
-//     sayi = rand() % 100 + 1;
-
-//     printf("1 ile 100 arasinda bir sayi tahmin edin: ");
-
-//     // Kullanıcının doğru sayıyı tahmin etmesini bekle
-//     do
-//     {
-//         scanf("%d", &tahmin);
-//         deneme_sayisi++;
-
-//         if (tahmin > sayi)
-//         {
-//             printf("Daha kucuk bir sayi girin: ");
-//         }
-//         else if (tahmin < sayi)
-//         {
-//             printf("Daha buyuk bir sayi girin: ");
-//         }
-//     } while (tahmin != sayi);
-
-//     printf("Tebrikler, doğru sayıyı %d. denemede buldunuz!\n", deneme_sayisi);
-
-//     return printf("Tebrikler, doğru sayıyı %d. denemede buldunuz!\n", deneme_sayisi);
-// }
